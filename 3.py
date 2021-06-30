@@ -2,7 +2,7 @@ while True:
     try:
         X = int(input())
         n = 1
-        if (1 <= X <= 1000000) == False:
+        if (1 <= X <= 10000000) == False:
             raise ValueError
         while n < X:
             X -= n
